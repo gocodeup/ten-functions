@@ -24,7 +24,7 @@
     it('should be a defined function', () => {
       expect(typeof concat).toBe('function');
     })
-    it('should return a string when passed to strings', () => {
+    it('should return a string when passed two strings', () => {
       expect(typeof concat("hello", "world")).toBe('string')
     })
     it('should return "helloworld" when passed "hello" and "world" as the two inputs.', () => {
